@@ -67,11 +67,7 @@ This project is licensed under the **MIT License**. You are free to use, modify,
 ### 👨‍💻 Author
 
 Ronald Omondi Omollo
-📧 [omolloronald5@gmail.com](mailto:omolloronald5@gmail.com)
+📧 [collincesronald@gmail.com](mailto:collincesronald@gmail.com)
 
-```
-
----
-
-Let me know if you'd like to publish it on GitHub or add more sections (like "Contributing" or "Future Improvements").
+Welcome and enjoy using my first software product.
 ```
