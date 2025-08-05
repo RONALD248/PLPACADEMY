@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website for Jangulu Wholesalers</title>
+    <link rel="stylesheet" href="sampling.css">
+    <script defer src="script.js"></script>
+    <style>
+        html {
+            scroll-behavior: smooth;
+        }
+        .mobile-nav-toggle {
+            display: none;
+            background: #007bff;
+            color: #fff;
+            border: none;
+            font-size: 2rem;
+            padding: 0 12px;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        @media (max-width: 700px) {
+            .main-nav ul {
+                display: none;
+                flex-direction: column;
+                background: #0be039;
+                position: absolute;
+                top: 60px;
+                left: 0;
+                width: 100%;
+                z-index: 100;
+            }
+            .main-nav ul.active {
+                display: flex;
+            }
+            .mobile-nav-toggle {
+                display: inline-block;
+                position: absolute;
+                right: 20px;
+                top: 18px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header class="main-header">
+        <div class="container" style="position:relative;">
+            <h1 class="logo">JANGULU WHOLESALERS</h1>
+            <button class="mobile-nav-toggle" aria-label="Toggle navigation">☰</button>
+            <nav class="main-nav">
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#Price_variation">Price Variation</a></li>
+                    <li><a href="#product_samples">Product Samples</a></li>
+                    <li><a href="#contact">Contact Us</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <section class="hero" id="home">
+        <div class="container">
+            <h2>Welcome to Jangulu Wholesalers</h2>
+            <p class="lead">Your one-stop shop for all wholesale needs, specializing in a wide variety of electrical and construction products. We maintain a stable supply for the Wabunyolongo Region and countrywide.</p>
+        </div>
+    </section>
+    <!-- Removed duplicate home section for clarity -->
+    <section class="branches">
+        <div class="container">
+            <h3>Our Branches</h3>
+            <div class="branch-list">
+                <div class="branch-card">
+                    <h4>Meru Branch 1</h4>
+                    <p>Meru Complex Building, 2nd floor<br><span class="branch-phone">Call 0735282362</span></p>
+                </div>
+                <div class="branch-card">
+                    <h4>Siata Branch 2</h4>
+                    <p>Siata Complex Building, 3rd floor<br><span class="branch-phone">Call 0737682763</span></p>
+                </div>
+                <div class="branch-card">
+                    <h4>Kisuma Branch 3</h4>
+                    <p>Kisuma Complex Building, 4th floor<br><span class="branch-phone">Call 0737782973</span></p>
+                </div>
+                <div class="branch-card">
+                    <h4>Wabunyolongo Branch 4</h4>
+                    <p>Wabunyolongo Complex Building, 5th floor<br><span class="branch-phone">Call 0737782976</span></p>
+                </div>
+            </div>
+        </div>
+</section>
+<section id="Price_variation">
+    <div class="container">
+        <h2>Price Variation</h2>
+        <p>Below are the approximate prices for our main products. Prices may vary depending on market conditions, quantity, and location.</p>
+        <div class="table-responsive">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Product</th>
+                        <th>Category</th>
+                        <th>Approximate Price (KES)</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr><td>Circuit Breaker</td><td>Electrical</td><td>1,200 - 2,500</td></tr>
+                    <tr><td>Electrical Cable/Wire</td><td>Electrical</td><td>50 - 200 per meter</td></tr>
+                    <tr><td>Light Switch</td><td>Electrical</td><td>150 - 400</td></tr>
+                    <tr><td>Socket Outlet (Power Outlet)</td><td>Electrical</td><td>250 - 600</td></tr>
+                    <tr><td>Cement (50kg bag)</td><td>Construction</td><td>700 - 900</td></tr>
+                    <tr><td>Bricks/Blocks</td><td>Construction</td><td>15 - 40 each</td></tr>
+                    <tr><td>Steel Reinforcement Bars (Rebars)</td><td>Construction</td><td>100 - 250 per kg</td></tr>
+                    <tr><td>Timber/Lumber</td><td>Construction</td><td>80 - 200 per foot</td></tr>
+                </tbody>
+            </table>
+        </div>
+        <p>For bulk orders or the latest price updates, please contact our sales team.</p>
+    </div>
+</section>
+</section>
+
+<!-- Product Samples Section -->
+<section id="product_samples">
+    <div class="container">
+        <h2>Product Samples</h2>
+        <p>We offer product samples for bulk buyers and contractors. Below are some of our sample products:</p>
+        <div class="product-gallery">
+            <figure>
+                <img src="images/Circuitbreaker.jpg" alt="Circuit Breaker">
+                <figcaption>Circuit Breaker</figcaption>
+            </figure>
+            <figure>
+                <img src="images/Electrical cables.jpg" alt="Electrical Cables">
+                <figcaption>Electrical Cables</figcaption>
+            </figure>
+            <figure>
+                <img src="images/Light switch.jpg" alt="Light Switch">
+                <figcaption>Light Switch</figcaption>
+            </figure>
+            <figure>
+                <img src="images/Socket Outlet.jpg" alt="Socket Outlet">
+                <figcaption>Socket Outlet</figcaption>
+            </figure>
+            <figure>
+                <img src="images/Cement.jpg" alt="Cement">
+                <figcaption>Cement</figcaption>
+            </figure>
+            <figure>
+                <img src="images/Bricks.jpg" alt="Bricks/Blocks">
+                <figcaption>Bricks/Blocks</figcaption>
+            </figure>
+            <figure>
+                <img src="images/Rebars.jpg" alt="Steel Reinforcement Bars">
+                <figcaption>Steel Reinforcement Bars</figcaption>
+            </figure>
+            <figure>
+                <img src="images/Timbers.jpg" alt="Timber/Lumber">
+                <figcaption>Timber/Lumber</figcaption>
+            </figure>
+        </div>
+    </div>
+</section>
+
+<!-- Contact Us Section -->
+<section id="contact">
+    <div class="container">
+        <h2>Contact Us</h2>
+        <p>For inquiries, orders, or support, reach out to us:</p>
+        <ul class="contact-list">
+            <li><strong>Email:</strong> <a href="mailto:omolloronald5@gmail.com">omolloronald5@gmail.com</a></li>
+            <li><strong>Phone:</strong> 0735 282 362 / 0737 682 763 / 0737 782 973 / 0737 782 976</li>
+            <li><strong>Visit:</strong> Any of our branches countrywide</li>
+        </ul>
+        <form action="https://localhost:5000/api/contact" method="POST" class="contact-form">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+            <input type="submit" value="Send">
+            <div id="form-status" style="margin-top:10px;"></div>
+        </form>
+    </div>
+</section>
+</body>
+<script>
+</script>
+</script>
+</html>
